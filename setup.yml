@@ -1,0 +1,7 @@
+ - name: hello
+   hosts: local
+   become: false
+   tasks:
+   - name: hello
+     debug: 
+       msg: "hello"
